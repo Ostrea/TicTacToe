@@ -31,7 +31,6 @@ public class ComputerPlayer extends BasePlayer {
         board.setPlayerForSquare(move, this);
     }
 
-    // TODO change using of Optional
     private int minimax(BasePlayer player) {
 
         // How is the position like for player (their turn) on board?

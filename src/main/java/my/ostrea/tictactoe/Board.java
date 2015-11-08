@@ -66,10 +66,8 @@ public class Board {
         return i * width + j;
     }
 
-    // TODO rewrite
     public List<Integer> getEmptySquares() {
         List<Integer> emptySquares = new ArrayList<>();
-
         for (int i = 0; i < width * height; i++) {
             if (!field[i].isPresent()) {
                 emptySquares.add(i);
